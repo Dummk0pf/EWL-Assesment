@@ -12,3 +12,10 @@ fetch("https://randomuser.me/api/?results=10")
     display(data);
 })
 .catch((error) => console.error("FETCH ERROR",error));
+
+
+function display(data){
+    const name = data[0].name;
+    const namediv = document.getElementById("name");
+    namediv.innerHTML("name");
+}
