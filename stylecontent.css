@@ -25,6 +25,15 @@ header{
     margin-left:10vw;
 }
 
+.container{
+    width:70vw;
+    margin:1rem auto 0rem auto;
+    background-color: blue;
+}
+
+    .searchbar{
+        width:100%;
+    }
 
 
 footer{

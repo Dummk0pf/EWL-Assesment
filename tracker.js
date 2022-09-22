@@ -8,14 +8,14 @@ fetch("https://randomuser.me/api/?results=10")
     }
 })
 .then(data =>{
-    console.log(data);
-    display(data);
+    console.log(data.results);
+    display(data.results);
 })
 .catch((error) => console.error("FETCH ERROR",error));
 
 
 function display(data){
-    const name = data[0].name;
-    const namediv = document.getElementById("name");
-    namediv.innerHTML("name");
+    const name = data[0].picture.medium;
+    const namediv = document.getElementById("name1");
+    namediv.innerHTML = name;
 }
