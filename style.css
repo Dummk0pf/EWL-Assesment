@@ -21,6 +21,12 @@ p{
     font-family: 'PT Mono', monospace;
 }
 
+a{
+    color:black;
+    text-decoration:none;
+    font-family: 'PT Mono', monospace;
+}
+
 header{
     height:10vh;
     background-color:white;
@@ -58,3 +64,23 @@ header{
         border-radius:10rem;
     }
 
+footer{
+    width:97.5%;
+    background-color:white;
+    position:absolute;
+    bottom: 0;
+    padding:1rem;
+}
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbox{
+        display:flex;
+    }
+
+    .navbox a{
+        padding-right:1rem;
+    }
