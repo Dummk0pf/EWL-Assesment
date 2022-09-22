@@ -15,7 +15,8 @@ fetch("https://randomuser.me/api/?results=10")
 
 
 function display(data){
-    const name = data[0].picture.medium;
-    const namediv = document.getElementById("name1");
-    namediv.innerHTML = name;
+    const namev = data[0].name.first;
+    const name = document.getElementById("name");
+    const p = document.createElement("p");
+
 }
