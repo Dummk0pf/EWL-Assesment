@@ -16,7 +16,7 @@ fetch("https://randomuser.me/api/?results=10")
 
 function display(data){
     const imgv = data[0].picture.thumbnail;
-    console.log(imgv);
+    
 
 
     const namev = data[0].name.first;
