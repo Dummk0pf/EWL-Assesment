@@ -36,5 +36,30 @@ function display(data){
 
     let p2 = document.createElement("p");
     p2.innerHTML = genderv;
-    document.getElementById("gender").appendChild(p2);   
+    document.getElementById("gender").appendChild(p2);
+    
+    
+    // let card1 = document.getElementById("card2")
+    // let imgv1 = data[1].picture.thumbnail;
+    // let namev1 = data[1].name.first;
+    // let emailv1 = data[1].email;
+    // let genderv1 = data[1].gender;
+
+    // let img1 = document.createElement("img");
+    // img1.src = imgv1;
+    // card1.insertBefore(img,document.getElementById("card02"))
+
+
+    // let p10 = document.createElement("p");
+    // p10.innerHTML = namev;
+    // document.getElementById("name1").appendChild(p1);
+
+    // let p11 = document.createElement("p");
+    // p11.innerHTML = emailv;
+    // document.getElementById("email1").appendChild(p11);
+
+    // let p12 = document.createElement("p");
+    // p12.innerHTML = genderv;
+    // document.getElementById("gender1").appendChild(p12);   
+
 }
