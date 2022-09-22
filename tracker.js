@@ -15,8 +15,12 @@ fetch("https://randomuser.me/api/?results=10")
 
 
 function display(data){
-    const namev = data[0].name.first;
-    const name = document.getElementById("name");
-    const p = document.createElement("p");
+    const imgv = data[0].picture.thumbnail;
+    console.log(imgv);
 
+
+    const namev = data[0].name.first;
+    const p = document.createElement("p");
+    p.innerHTML = namev;
+    document.getElementById("name").appendChild(p);
 }
